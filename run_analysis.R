@@ -92,5 +92,5 @@ for (s in 1:numSubjects) {
 write.table(mdf_averaged, "mdf_averaged.txt")
 
 #declutter
-rm(ActOne, clean, features, S, X, Y, store, a, Activities, numActivities)
+rm(ActOne, features, S, X, Y, store, a, Activities, numActivities)
 rm(numCols, numSubjects, row, s, Subjects, mean.dev.filter)
